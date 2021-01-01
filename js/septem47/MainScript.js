@@ -13,7 +13,9 @@ window.addEventListener('load', function () {
 
 function Start() {
     // RenderHead();
-    if(filetitle_str === "index.html" || "")
+
+    // GithubPagesのトップは空白になる
+    if(filetitle_str === "index.html" || filetitle_str ===  "")
     {
         TeleportByLanguage();
     }

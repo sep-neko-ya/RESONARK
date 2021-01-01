@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
 
 function Start() {
     // RenderHead();
-    if(filetitle_str === "index.html")
+    if(filetitle_str === "index.html" || "")
     {
         TeleportByLanguage();
     }

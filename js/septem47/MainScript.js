@@ -207,7 +207,7 @@ var englishMainFooterHTML = function(){/*
             <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="d-flex flex-column align-items-center">
-                        <a href="https://mobile.twitter.com/resonark_x" target="_blank" rel="noopener noreferrer">
+                        <a href="https://store.steampowered.com/app/1366570/RESONARK_X/" target="_blank" rel="noopener noreferrer">
                             <div class="icon-contact btn btn-outline-primary btn-social mb-3"><i
                                     class="fab fa-fw fa-steam"></i></div>
                         </a>

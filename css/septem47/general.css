@@ -8,6 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800&display=swap');
 
+.text-lightgray {
+  color: #afafaf !important; }
+
 /* Top Page */
 
 .portfolio {
@@ -28,6 +31,27 @@
 .footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+/* Indiv Page */
+
+.page-section.s47-siteContent {
+  padding: 2rem 0;
+}
+
+.indivBackGround {
+  background-image: url('../../assets/img/indiv/rbg-exp2.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.page-section p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* Movie */

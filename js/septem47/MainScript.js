@@ -21,6 +21,7 @@ function Start() {
     }
     else
     {
+        // 日本語の条件分岐
         RenderEnglishTopPage();
     }
 }
@@ -37,9 +38,17 @@ function RenderEnglishTopPage(){
 
 function TeleportByLanguage () {
     try{
-        var lang = window.navigator.languages || window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage;
-        if(lang == 'ja'){ location.href = relativeJapaneseTopPagePath; }
-        else{location.href = relativeEnglishTopPagePath;}
+        var langs = window.navigator.languages || window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage;
+        var isJapanese = false;
+        langs.forEach(element => {
+            if(element == 'ja') isJapanese = true;
+        });
+
+        if(isJapanese){
+            location.href = relativeJapaneseTopPagePath;
+        } else {
+            location.href = relativeEnglishTopPagePath;
+        }
     }
     catch
     {
@@ -51,6 +60,7 @@ function TeleportByLanguage () {
 
 const relativeEnglishTopPagePath = "en_top.html";
 const relativeJapaneseTopPagePath = "jp_top.html";
+
 
 var englishHeadHTML = function(){/*
     <meta charset="utf-8">

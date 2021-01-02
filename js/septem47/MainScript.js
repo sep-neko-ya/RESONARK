@@ -985,7 +985,7 @@ function GetFeatureTableString(langstr) {
                             <tr>
                                 <td>プレイヤー撮影モード(VR)</td>
                                 <td><i class="fas fa-check"></i>(※5)</td>
-                                <td><i class="fas fa-check"></i>(※5)</td>
+                                <td>△(※5)</td>
                             </tr>
                             <tr>
                                 <td>プラットフォーム</td>
@@ -1086,7 +1086,7 @@ function GetFeatureTableString(langstr) {
                                 </tr>
                                 <tr>
                                     <td>Player shot mode(VR)</td>
-                                    <td><i class="fas fa-check"></i>(※5)</td>
+                                    <td>△(※5)</td>
                                     <td><i class="fas fa-check"></i>(※5)</td>
                                 </tr>
                                 <tr>

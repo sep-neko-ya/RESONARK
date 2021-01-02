@@ -110,7 +110,7 @@ var headHTML = String.raw`
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
         crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
     <!-- Fonts CSS-->

@@ -606,6 +606,35 @@ function GetQaContentString(langstr) {
                             </div>
                         </div>
                     </div>
+                    <div>
+                    <h4 class="d-inline-block mb-3">その他</h4>
+                    </div>
+                    <div>
+                        <h5 class="d-inline-block mb-3">サークルについて</h5>
+                    </div>
+                    <div class="card-deck mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Q. sep-neko-yaって何？</h6>
+                                <h6 class="card-title">A. 個人で運営されているゲーム制作サークルです。</h6>
+                                <p class="card-text">
+                                    septem47がVR関係の創作を始めたときに、サークルがほしくなったため設立(?)しました。流れで何人か集まってきました。メンバーは以下の通りです。(括弧内は譜面制作時の名義となります。誰がどの譜面を担当しているかは、ゲーム内のリザルト画面で見ることができます)
+                                </p>
+                                <ul class="card-text">
+                                    <li>septem47</li>
+                                    <p>RESONARKシリーズではプログラムを担当しています。流れで代表をすることになってしまいました。別名プログラムねこ。Twitterはこちら: <a
+                                            href="https://mobile.twitter.com/septem47"
+                                            target="_blank">https://mobile.twitter.com/septem47</a></p>
+                                    <li>せぷねこ (sep-neko 他)</li>
+                                    <p>RESONARKシリーズでは譜面制作とグラフィック周りを頑張っています。</p>
+                                    <li>せぷこや (sep-koya 他)</li>
+                                    <p>RESONARKシリーズでは譜面制作と企画のような何かをしているかもしれません(?) いなりあげなどが好きです。</p>
+                                    <li>一条 灯里 (Akari)</li>
+                                    <p>最近サークルに参加しました。譜面制作や雑務(WebやSNS運用)を担当しています。</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -850,7 +879,7 @@ function GetQaContentString(langstr) {
 }
 
 function GetContentCautionString(langstr) {
-    if(langstr === "ja"){
+    if (langstr === "ja") {
         return String.raw`
         <section class="page-section s47-siteContent bg-primary text-white">
             <div class="container">
@@ -865,8 +894,7 @@ function GetContentCautionString(langstr) {
         </section>
         `;
     }
-    else
-    {
+    else {
         return String.raw`
         <section class="page-section s47-siteContent bg-primary text-white">
             <div class="container">
@@ -884,8 +912,8 @@ function GetContentCautionString(langstr) {
 }
 
 function GetFeatureTopString(langstr) {
-    if(langstr === "ja"){
-    return String.raw`
+    if (langstr === "ja") {
+        return String.raw`
     <header class="masthead indivBackGround text-white">
         <div class="overlay"></div>
         <div class="container">
@@ -901,8 +929,7 @@ function GetFeatureTopString(langstr) {
     </header>
     `;
     }
-    else
-    {
+    else {
         return String.raw`
         <header class="masthead indivBackGround text-white">
             <div class="overlay"></div>
@@ -922,8 +949,8 @@ function GetFeatureTopString(langstr) {
 }
 
 function GetFeatureTableString(langstr) {
-    if(langstr === "ja"){
-    return String.raw`
+    if (langstr === "ja") {
+        return String.raw`
     <section class="page-section s47-siteContent">
         <div class="container">
             <!-- About Section Heading-->
@@ -1023,8 +1050,7 @@ function GetFeatureTableString(langstr) {
     </section>
     `;
     }
-    else
-    {
+    else {
         return String.raw`
         <section class="page-section s47-siteContent">
             <div class="container">

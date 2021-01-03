@@ -110,7 +110,18 @@ var headHTML = String.raw`
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
         crossorigin="anonymous"></script>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@resonark_x">
+    <meta name="twitter:creator" content="@resonark_x">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="RESONARK">
+    <meta property="og:site_name" content="RESONARK">
+    <meta property="og:url" content="https://sep-neko-ya.github.io/RESONARK/">
+    <meta property="og:image" content="assets/img/top/rx-v12-maincap.png">
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
     <!-- Fonts CSS-->

@@ -120,7 +120,7 @@ var headHTML = String.raw`
     <meta property="og:title" content="RESONARK">
     <meta property="og:site_name" content="RESONARK">
     <meta property="og:url" content="https://sep-neko-ya.github.io/RESONARK/">
-    <meta property="og:image" content="assets/img/top/rx-v12-maincap.png">
+    <meta property="og:image" content="assets/img/top/rx-v12-maincap.jpg">
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
@@ -177,7 +177,7 @@ var englishMainPictureHTML = String.raw`
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/img/top/rx-v12-maincap.png" class="d-block w-100" alt="...">
+            <img src="assets/img/top/rx-v12-maincap.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
 </div>
@@ -980,7 +980,7 @@ function GetFeatureTableString(langstr) {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
-                    <img src="assets/img/feature/rxtuto-jp.png" class="img-fluid">
+                    <img src="assets/img/feature/rxtuto-jp.jpg" class="img-fluid">
                 </div>
 
                 <div class="col-lg-11 col-md-11 mx-auto mb-4">
@@ -1081,7 +1081,7 @@ function GetFeatureTableString(langstr) {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
-                        <img src="assets/img/feature/rxtuto-en.png" class="img-fluid">
+                        <img src="assets/img/feature/rxtuto-en.jpg" class="img-fluid">
                     </div>
     
                     <div class="col-lg-11 col-md-11 mx-auto mb-4">

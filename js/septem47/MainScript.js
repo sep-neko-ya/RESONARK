@@ -1027,7 +1027,7 @@ function GetFeatureTableString(langstr) {
                             </tr>
                             <tr>
                                 <td>プラットフォーム</td>
-                                <td>Steam VR(Oculus, HTC VIVE, Valve Index), Steam(Windows)</td>
+                                <td>Steam VR(Oculus, HTC VIVE(Cosmosを除く), Valve Index), Steam(Windows)</td>
                                 <td>VRChatの対応するプラットフォーム(※6)</td>
                             </tr>
                             <tr>
@@ -1128,7 +1128,7 @@ function GetFeatureTableString(langstr) {
                                 </tr>
                                 <tr>
                                     <td>Platform</td>
-                                    <td>Steam VR(Oculus, HTC VIVE, Valve Index), Steam(Windows)</td>
+                                    <td>Steam VR(Oculus, HTC VIVE(except Cosmos), Valve Index), Steam(Windows)</td>
                                     <td>Platforms supported by VRChat(※6)</td>
                                 </tr>
                                 <tr>

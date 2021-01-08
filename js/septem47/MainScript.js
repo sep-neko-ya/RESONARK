@@ -1026,9 +1026,9 @@ function GetFeatureTableString(langstr) {
                                 <td>△(※5)</td>
                             </tr>
                             <tr>
-                                <td>プラットフォーム</td>
+                                <td>ハードウェア</td>
                                 <td>Steam VR(Oculus, HTC VIVE(Cosmosを除く), Valve Index), Steam(Windows)</td>
-                                <td>VRChatの対応するプラットフォーム(※6)</td>
+                                <td>VRChatの対応するハードウェア(※6)</td>
                             </tr>
                             <tr>
                                 <td>リンク</td>
@@ -1127,9 +1127,9 @@ function GetFeatureTableString(langstr) {
                                     <td><i class="fas fa-check"></i>(※5)</td>
                                 </tr>
                                 <tr>
-                                    <td>Platform</td>
+                                    <td>Hardware</td>
                                     <td>Steam VR(Oculus, HTC VIVE(except Cosmos), Valve Index), Steam(Windows)</td>
-                                    <td>Platforms supported by VRChat(※6)</td>
+                                    <td>Hardware supported by VRChat(※6)</td>
                                 </tr>
                                 <tr>
                                     <td>Links</td>

@@ -20,17 +20,17 @@ function Start() {
     }
     else {
         if (filetitle_str === "en_top.html") {
-            RenderEnglishTopPage();
+            TeleportByLanguage();
         } else if (filetitle_str === "jp_top.html") {
-            RenderJapaneseTopPage();
+            TeleportByLanguage();
         } else if (filetitle_str === "en_qa.html") {
-            RenderEnglishQaPage();
+            TeleportByLanguage();
         } else if (filetitle_str === "jp_qa.html") {
-            RenderJapaneseQaPage();
+            TeleportByLanguage();
         } else if (filetitle_str === "en_feature.html") {
-            RenderEnglishFeaturePage();
+            TeleportByLanguage();
         } else if (filetitle_str === "jp_feature.html") {
-            RenderJapaneseFeaturePage();
+            TeleportByLanguage();
         }
     }
 }
@@ -80,14 +80,14 @@ function TeleportByLanguage() {
         });
 
         if (isJapanese) {
-            location.href = relativeJapaneseTopPagePath;
+            location.href = absJapanesePath;
         } else {
-            location.href = relativeEnglishTopPagePath;
+            location.href = absEnglishPath;
         }
     }
     catch
     {
-        location.href = relativeEnglishTopPagePath;
+        location.href = absJapanesePath;
     }
 }
 
@@ -100,6 +100,9 @@ const relativeEnglishQaPath = "en_qa.html";
 const relativeJapaneseTopPagePath = "jp_top.html";
 const relativeJapaneseFeaturePath = "jp_feature.html";
 const relativeJapaneseQaPath = "jp_qa.html";
+
+const absJapanesePath = "https://sepnekoya.com/resonark/";
+const absEnglishPath = "https://sepnekoya.com/resonark/toppageen";
 
 var headHTML = String.raw`
     <meta charset="utf-8">
